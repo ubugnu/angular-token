@@ -11,8 +11,8 @@ export interface RegisterData {
   login:                  string;
   password:               string;
   passwordConfirmation:   string;
-  name?:                  string;
-  userType?:              string;
+  name:                  string;
+  userType:              string;
 }
 
 export interface RegisterData {
